@@ -1,24 +1,15 @@
 <template>
   <div id="app">
-    <b-container >
-      <b-row>
-        <b-col cols="4">
-          <stock-card stockSymbol="MSFT"></stock-card>
-        </b-col>
-        <b-col cols="4">
-          <stock-card stockSymbol="AAPL"></stock-card>
-        </b-col>
-      </b-row> 
-    </b-container>
+      <stock-card-manager></stock-card-manager>
   </div>
 </template>
 
 <script>
-import StockCard from './components/stocks/StockCard'
+import StockCardManager from './components/stocks/StockCardManager'
 export default {
   name: 'app',
   components: {
-    StockCard
+    StockCardManager
   }
 }
 </script>

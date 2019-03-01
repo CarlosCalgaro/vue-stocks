@@ -12,7 +12,7 @@
             CEO: {{ceo}}
             <br>
             <p class="text-muted">
-                Updated on: {{ lastUpdated.format("DD/MM/YYYY HH:mm:ss") }}
+                Updated on: {{ this.lastUpdated }}
             </p>
             <p class="text-muted">
                 On: {{ exchange }}
